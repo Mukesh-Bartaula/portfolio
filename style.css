@@ -1,0 +1,96 @@
+.navbar {
+    margin-bottom: 40px;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.profile_container {
+    margin: auto;
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 600px;
+    background-color: rgb(49, 46, 46);
+}
+
+.head {
+    height: 170px;
+}
+
+.photo_bg {
+    display: flex;
+    height: 170px;
+    width: auto;
+    background-image: url('img/bg.webp');
+    background-size: cover;
+    /* Adjust to your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.photo {
+    display: inline-block;
+    margin-top: -100px;
+}
+
+.name {
+    display: inline-block;
+
+}
+
+
+
+.head .photo_bg p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    size: 20px;
+    margin: auto;
+}
+
+
+
+.description {
+    width: 100%;
+    height: auto;
+    color: red;
+    padding: 20px 30px;
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    justify-content: space-between;
+}
+
+#carouselExampleIndicators {
+    display: flex;
+    height: 40%;
+}
+
+.custom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Ensures the caption takes the full height of the parent carousel item. */
+}
+
+/*projects.php*/
+.project_body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.project_body p {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* footer */
+.card {
+    margin-top: 40px;
+}
