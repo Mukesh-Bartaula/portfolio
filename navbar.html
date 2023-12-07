@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
     <div class="container-fluid">
         <div class="navbar">
         </div>
@@ -31,3 +31,9 @@
 
     </div>
 </nav>
+<script>
+    function myfunction() {
+        var element = document.body;
+        element.dataset.bsTheme = element.dataset.bsTheme == "light" ? "dark" : "light";
+    }
+</script>

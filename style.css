@@ -1,4 +1,6 @@
-.navbar {
+#navbar {
+    position: sticky;
+    top: 0;
     margin-bottom: 40px;
 }
 
@@ -8,10 +10,12 @@
 
 .profile_container {
     margin: auto;
+    border: 1px solid rgb(26, 23, 23);
+    border-radius: 15px;
     min-height: 100vh;
+    overflow: hidden;
     max-height: fit-content;
     width: 600px;
-    background-color: rgb(49, 46, 46);
 }
 
 .head {
